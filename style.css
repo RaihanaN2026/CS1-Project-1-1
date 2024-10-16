@@ -1,1 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+
+
+
+/* General page styles*/
+body {
+    background-color: lavender;
+    font-family: "Libre Caslon Display", serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* box model: margin, border, padding, */
+img {
+
+    border-width: 3px;
+    border-style: ridge;
+    border-color: rgb(13, 83, 197);
+    border-radius: 20px;
+    margin-left: 40px;
+    padding: 4px;
+}
+
+/* Properties: color and typography */
+strong { 
+    color:RGB(37, 10, 147);
+    
+    font-family: impact;
+    font-weight: 900;
+    font-style: italic;
+}
+hr {
+    border-width: 5px;
+    border-style: dotted;
+    border-color: rgb(10, 123, 123);
+}
 
